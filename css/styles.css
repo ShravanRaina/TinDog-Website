@@ -1,0 +1,166 @@
+body{
+    font-family:"Ubuntu";
+    margin-right: 0;
+    text-align: center;
+}
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat";
+}
+
+.colored-section{
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+.big-heading{
+    font-family:"Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 2% 15% 13%;
+}
+
+.navbar{
+    padding-bottom: 1.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size: 35px;
+}
+.nav-item{
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+#features{
+    padding: 3% 10%;
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+.icon{
+    margin-bottom: 1rem;
+    color: #ef8172;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.cd{
+    margin: 15px;
+}
+
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+.iphoneimg{
+    transform: rotate(25deg);
+    width: 300px;
+    position: absolute;
+    right: 30%;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+}
+.navbar>.container-fluid{
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 60px;
+}
+
+@media (max-width: 1200px){
+    .container-fluid{
+        text-align: center;
+    }
+    .iphoneimg{
+    padding-top: 30px;
+    transform: rotate(0);
+    position: static;
+    width: 300px;
+    }
+}
+
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+}
+
+.ctabtn{
+    font-family: "Ubuntu";
+    padding: 8px 16px;
+    margin: 10px;
+}
+
+.iconcta{
+    padding-right: 4px;
+}
+
+#footer{
+    color: grey;
+    padding: 7% 15%;
+}
+
+.footicon{
+    color: black;
+    padding: 1%;
+}
